@@ -5,3 +5,8 @@
 <p align="center">
   <img src="Image-Ilustration.png" />
 </p>
+
+## Setup
+```
+pip install -r requirements.txt
+```
