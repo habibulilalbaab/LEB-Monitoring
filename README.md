@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 ip_address = "192.168.5.5" # static ip address nodemcu esp
 ```
-- Install hotspot software on our laptop, for example MyPublicWifi https://mypublicwifi.com/
+- Install hotspot software on your laptop, for example MyPublicWifi https://mypublicwifi.com/
 - Open NodeMCU Code/ESP8266.ino using Arduino IDE
 - Edit ESP Wifi Client Base on Hotspot Software "NodeMCU Code/ESP8266.ino"
 ```
