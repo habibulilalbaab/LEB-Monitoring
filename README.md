@@ -1,5 +1,5 @@
 # LEB-Monitoring
- Monitor your External Laptop Battery using this Program, no need to buy a new battery, create your own 3S battery, and connect it to a laptop for a long run time.
+ Monitor your External Laptop Battery via tray icon operating system, or web browser using LEB-Monitoring, not need to buy a new battery, create your own 3S battery, and connect it to a laptop for a long run time as internal or backup battery aka laptop power bank.
 
 
 <p align="center">
@@ -12,6 +12,7 @@
 - Toast notification to notify critical battery.
 - Monitor your 3S battery using web browser with access ESP IP Address.
 - Auto charging battery when connecting charger.
+- Works as internal battery or backup battery aka laptop power bank (you need setup buck converter if using power bank mode).
 
 ## Components & Software
 - NodeMCU ESP8266
