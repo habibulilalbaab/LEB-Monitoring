@@ -6,6 +6,12 @@
   <img src="Image-Ilustration.png" />
 </p>
 
+## Features
+- Show Battery Percentage, Voltage, Status, and Level.
+- Tray Icon to monitoring battery like internal battery.
+- Toast notification to notify critical battery.
+- Monitor your 3S battery using web browser with access ESP IP Address.
+
 ## Components & Software
 - NodeMCU ESP8266
 - Battery 3S
