@@ -26,6 +26,7 @@
 coming soon
 
 ## Setup
+- Install package requirements to your laptop
 ```
 pip install -r requirements.txt
 ```
