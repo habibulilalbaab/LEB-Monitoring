@@ -2,13 +2,14 @@ from infi.systray import SysTrayIcon
 import time
 import requests
 import datetime
+import config
 
 last_update = datetime.datetime.now().strftime("%d-%m-%Y %H:%I:%S")
 
 with SysTrayIcon("assets/level-1.ico", "") as systray:
     while True:
         try:
-            ip_address = "192.168.5.5"
+            ip_address = config.ip_address
             battery_percentage = "http://{}/api/percentage".format(ip_address)
             battery_voltage = "http://{}/api/voltage".format(ip_address)
             battery_status = "http://{}/api/status".format(ip_address)

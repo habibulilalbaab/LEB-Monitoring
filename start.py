@@ -1,1 +1,1 @@
-import tray_icon
+from components import tray_icon
