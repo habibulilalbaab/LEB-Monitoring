@@ -33,7 +33,7 @@ IPAddress gateway(192,168,5,1);
 IPAddress subnet(255,255,255,0);  
 ```
 - You can adjust Static IP Address from hotspot software on windows, for example MyPublicWifi (https://mypublicwifi.com/), then upload code to ESP using Arduino IDE.
-- Set auto startup software using windows task scheduler for bypass ask administrator permission on boot
+- Set auto startup hotspot software using windows task scheduler for bypass ask administrator permission on boot
 - Set auto startup python to run start.py using shortcut
 ```
 /path/pythonw.exe start.py
