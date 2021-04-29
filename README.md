@@ -11,10 +11,12 @@
 - Tray Icon to monitoring battery like internal battery.
 - Toast notification to notify critical battery.
 - Monitor your 3S battery using web browser with access ESP IP Address.
+- Auto charging battery when connecting charger.
 
 ## Components & Software
 - NodeMCU ESP8266
 - Battery 3S
+- BMS 3S to protect your battery
 - (1x) 1K Resistor
 - (1x) 10K Resistor
 - Hotspot Software (Autostart)
