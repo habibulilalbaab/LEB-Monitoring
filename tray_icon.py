@@ -20,9 +20,11 @@ with SysTrayIcon("assets/level-1.ico", "") as systray:
             battery_status = battery_status.text
             battery_level = battery_level.text
             print("[200] Success Get Data")
+            last_update = datetime.datetime.now().strftime("%d-%m-%Y %H:%I:%S")
         except:
             print("[500] Failed Get Data")
-        battery_data = "{}% Battery Percentage\n{}V Battery Voltage\nStatus is {}\nUpdated at {}".format(battery_percentage, battery_voltage, battery_status, datetime.datetime.now().strftime("%d-%m-%Y %H:%I:%S"))
+            last_update = last_update
+        battery_data = "{}% Battery Percentage\n{}V Battery Voltage\nStatus is {}\nUpdated at {}".format(battery_percentage, battery_voltage, battery_status, last_update)
         if battery_level == "1":
             systray.update(icon="assets/level-1.ico", hover_text=battery_data)
         elif battery_level == "2":
