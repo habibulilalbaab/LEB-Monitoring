@@ -43,5 +43,5 @@ with SysTrayIcon("assets/level-1.ico", "") as systray:
         elif battery_level == "4":
             systray.update(icon="assets/level-4.ico", hover_text=battery_data)
         else:
-            systray.update(icon="assets/level-0.ico", hover_text="Error Battery")
+            systray.update(icon="assets/level-0.ico", hover_text="Error Read Battery Status\nUpdated at {}".format(last_update))
         time.sleep(1)
