@@ -6,6 +6,17 @@
   <img src="Image-Ilustration.png" />
 </p>
 
+## Components & Software
+- NodeMCU ESP8266
+- Battery 3S
+- (1x) 1K Resistor
+- (1x) 10K Resistor
+- Hotspot Software (Autostart)
+- Python 3
+
+## Wiring Diagram
+coming soon
+
 ## Setup
 ```
 pip install -r requirements.txt
