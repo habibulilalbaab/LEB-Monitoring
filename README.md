@@ -31,24 +31,27 @@ coming soon
 ```
 pip install -r requirements.txt
 ```
-- Edit ESP Wifi Client "NodeMCU Code/ESP8266.ino"
+- Edit Configuration File "config.py"
+```
+ip_address = "192.168.5.5" # static ip address nodemcu esp
+```
+- Install hotspot software on our laptop, for example MyPublicWifi https://mypublicwifi.com/
+- Open NodeMCU Code/ESP8266.ino using Arduino IDE
+- Edit ESP Wifi Client Base on Hotspot Software "NodeMCU Code/ESP8266.ino"
 ```
 #define STASSID "LEB-Monitoring"
 #define STAPSK  "12345678"
 ```
-- Edit ESP Static IP "NodeMCU Code/ESP8266.ino"
+- Edit ESP Static IP  Base on Hotspot Software "NodeMCU Code/ESP8266.ino"
 ```
 IPAddress ip(192,168,5,5);   
 IPAddress gateway(192,168,5,1);   
 IPAddress subnet(255,255,255,0);  
 ```
-- You can adjust Static IP Address from hotspot software on windows, for example MyPublicWifi https://mypublicwifi.com/, then upload code to ESP using Arduino IDE.
-- Edit Configuration File "config.py"
-```
-ip_address = "192.168.5.5" # static ip address nodemcu esp
-```
-- Set auto startup hotspot software using windows task scheduler for bypass ask administrator permission on boot
-- Set auto startup python to run start.py using shortcut
+- You can adjust Static IP Address from hotspot software.
+- Upload code to ESP using Arduino IDE.
+- Set auto startup hotspot software using windows task scheduler for bypass ask administrator permission on boot.
+- Set auto startup python to run start.py using shortcut like below:
 ```
 /path/pythonw.exe start.py
 ```
