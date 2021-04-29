@@ -1,0 +1,7 @@
+{
+  "name": "LEB-Monitoring",
+  "version": "0.0.1",
+  "description": "Monitor your External Laptop Battery like internal battery using LEB-Monitoring, not need to buy a new internal battery, create your own 3S battery, and connect it to a laptop for a long run time.",
+  "author": "Muhammad Habib Ulil A",
+  "license": "MIT"
+}
