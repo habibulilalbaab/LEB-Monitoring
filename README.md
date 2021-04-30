@@ -26,6 +26,7 @@ Monitor your External Laptop Battery via tray icon operating system, or web brow
 - NodeMCU ESP8266
 - Battery 3S
 - BMS 3S to protect your battery
+- (1 Pair) Battery Connector
 - (1x) 1K Resistor
 - (1x) 10K Resistor
 - Hotspot Software (Autostart)
