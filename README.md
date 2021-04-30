@@ -7,7 +7,7 @@
  <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCHYBXV9T_XbFkKivann442A?style=social">
  </p>
 
-Monitor your External Laptop Battery via tray icon operating system, or web browser using LEB-Monitoring, not need to buy a new battery, create your own 3S battery, and connect it to a laptop for a long run time as internal or backup battery aka laptop power bank.
+LEB-Monitoring "Laptop External Battery Monitoring" Monitor your External Laptop Battery via tray icon operating system, or web browser using LEB-Monitoring, not need to buy a new battery, create your own 3S battery, and connect it to a laptop for a long run time as internal or backup battery aka laptop power bank.
 
 
 <p align="center">
